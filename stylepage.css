@@ -1,0 +1,435 @@
+body{
+    background-color: black;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .nav_bar{
+      background: linear-gradient(180deg, rgba(44, 44, 44, 0.8) 0%, rgba(52, 51, 51, 0) 100%);
+      backdrop-filter: blur(10px);
+  }
+  .text{
+      color: white;   
+  }
+  .text:hover{
+    color: #FF581C;
+  }
+  
+  
+   .homemenu{
+    border-radius: 20px;
+      border: 2px solid rgba(72, 72, 72, 0.2);
+      background: #181818;
+   }
+  
+   .dropdown_item{
+    color: #999;
+   }
+   .dropdown_item:hover{
+    color: #999;
+  background-color:#181818 ;
+   }
+   /* From Uiverse.io by Yaya12085 */ 
+.button {
+    width: fit-content;
+    display: flex;
+    padding: 1.2em 1rem;
+    cursor: pointer;
+    gap: 0.4rem;
+    font-weight: bold;
+    border-radius: 30px;
+    text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+    background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+    background-size: 300%;
+    color: #fff;
+    border: none;
+    background-position: left center;
+    box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+    transition: background .3s ease;
+  }
+  
+  .button:hover {
+    background-size: 320%;
+    background-position: right center;
+  }
+  
+  .button:hover svg {
+    fill: #fff;
+  }
+  
+  .button svg {
+    width: 23px;
+    fill: #f09f33;
+    transition: .3s ease;
+  }
+
+   /* hero */
+   .breadcumb{
+    background-image: url('./image/breadcrumb-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    height: 410px;
+    position: relative;
+    top: -16px;
+  }
+
+  /* page */
+  .aboutholla{
+    font-size: 48px;
+  }
+
+  .original{
+    font-size: 32px;
+  }
+
+  /* footer */
+
+
+
+.download{
+    font-size: 23px;
+  }
+  
+  .appstore{
+    width: 130px;
+  
+    padding: 1.2em 1rem;
+    cursor: pointer;
+    gap: 0.4rem;
+    font-weight: bold;
+    border-radius: 30px;
+    text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+    background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+    background-size: 300%;
+    color: #fff;
+    border: none;
+    background-position: left center;
+    box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+    transition: background .3s ease;
+    margin-top:25px; 
+  }
+  
+  /* playstore */
+  /* From Uiverse.io by zanina-yassine */ 
+  .Playstore {
+    min-width: 120px;
+  
+    position: relative;
+    cursor: pointer;
+  
+    padding: 12px 17px;
+    border: 0;
+    border-radius: 7px;
+  
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+    background: radial-gradient(
+      ellipse at bottom,
+      rgba(71, 81, 92, 1) 0%,
+      rgba(11, 21, 30, 1) 45%
+    );
+  
+    color: rgb(255, 255, 255, 0.66);
+  
+    transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  
+  .Playstore::before {
+    content: "";
+    width: 70%;
+    height: 1px;
+  
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+  
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 50%,
+      rgba(255, 255, 255, 0) 100%
+    );
+    opacity: 0.2;
+  
+    transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+  }
+  
+  .Playstore:hover {
+    color: rgb(255, 255, 255, 1);
+    transform: scale(1.1) translateY(-3px);
+  }
+  
+  .Playstore:hover::before {
+    opacity: 1;
+  }
+  
+  
+  .Playstore{
+    width: 45px;
+    height: 62px;
+  }
+  .connected, .Comedy, .Action, .Crime ,.Romance, .About, .Pricing, .Privacy, .Faq, .Account{
+    color: grey;
+  }
+  .Comedy:hover, .Action:hover, .Crime:hover ,.Romance:hover, .About:hover, .Pricing:hover, .Privacy:hover, .Faq:hover, .Account:hover{
+    color: white;
+  }
+
+.circle{
+  width: 535px;
+  height: 535px;
+  border-radius: 50%;
+  border: 50px solid black;
+  background-color: transparent;
+  position: absolute;
+  top: 974px;
+  left: 6px
+}
+.circle2{
+  width: 535px;
+  height: 535px;
+  border-radius: 50%;
+  border: 60px solid black;
+  background-color: transparent;
+  position: absolute;
+  top: 974px;
+  left: 466px;
+}
+.circle3{
+  width: 535px;
+  height: 535px;
+  border-radius: 50%;
+  border: 60px solid black;
+  background-color: transparent;
+  position: absolute;
+  left: 915px;
+  top: 974px;
+}
+
+.aboutimage{
+  width: 1295px;
+}
+
+
+
+
+
+
+
+
+
+  @media (max-width:767px) and (min-width:576px) {
+    .footercol{
+      display: flex;
+      justify-content: center;
+    }
+  .holaafooter{
+    margin-left: 70px;
+  }
+  
+  }
+  
+  @media (max-width:575px) and (min-width:350px) {
+    .footercol{
+      display: flex;
+      justify-content: center;
+    }
+    .browsecol{
+      margin-right: 0;
+    }
+    .helpcol{
+      margin-left: 200px;
+    }
+  }
+
+
+  /*  */
+@media (max-width:1461px) and (min-width:1401px){
+  
+  .aboutimage{
+    width: 1295px;
+  }
+.circle{
+  width: 500px;
+  height: 500px;
+ 
+  top: 994px;
+  left: 55px;
+}
+.circle2{
+  width: 500px;
+  height: 500px;
+  top: 995px;
+  left: 474px;
+}
+.circle3{
+  width: 500px;
+  height: 500px;
+  left: 874px;
+  top: 998px;
+}
+
+}
+
+
+  @media (max-width:1400px) and (min-width:1200px) {
+    .circle{
+      width: 460px;
+      height: 460px;
+      top: 980px;
+      border:80px solid black; 
+      left: 2px;
+    }
+    .circle2{
+      top: 975px;
+      left: 350px;
+      width: 460px;
+      height: 460px;
+      border:80px solid black; 
+    }
+.circle3{
+  width: 460px;
+  height: 460px;
+  border:80px solid black; 
+  left: 707px;
+}
+.aboutimage{
+  width: 1115px;
+}
+
+  }
+
+
+
+  @media (max-width:1399px) and (min-width:1223px) {
+    .circle3{
+      left: 745px;
+    }
+    .circle2{
+      left: 395px;
+    }
+  } 
+    
+
+  @media (max-width:1202px) and (min-width:992px) {
+    .circle3{
+      height: 405px;
+      width: 405px;
+      left: 572px;
+      top: 1018px;
+      border:80px solid black; 
+    }
+    .circle2{
+      height: 405px;
+      width: 405px;
+      left: 295px;
+      top: 1018px;
+      border:80px solid black; 
+    }
+    .circle{
+      top: 1019px;
+      height: 405px;
+      width: 405px;
+      border:80px solid black; 
+    }
+
+    .aboutimage {
+      width: 935px;
+  }
+  } 
+
+  @media (max-width:1199px) and  (min-width:1201) {
+    .aboutimage {
+      width: 1116px;
+  }
+  }
+
+
+
+  @media (max-width:991px) and (min-width:768px) {
+    .circle{
+      width: 300px;
+      height: 300px;
+      top: 1028px;
+      left: 6px;
+    }
+    .circle2{
+      width: 300px;
+      height: 300px;
+      top: 1027px;
+      left: 225px;
+    }
+    .circle3{
+      width: 300px;
+      height: 300px;
+      top: 1027px;
+      left: 455px;
+    }
+    .aboutimage {
+      width: 695px;
+  }
+  }
+
+
+  @media (max-width:767px) and (min-width:576px) {
+    .circle{
+      width: 250px;
+      height: 250px;
+      top: 1079px;
+      left: 42px;
+    }
+    .circle2{
+      width: 250px;
+      height: 250px;
+      top: 1077px;
+      left: 301px;
+    }
+    .circle3{
+      width: 250px;
+      height: 250px;
+      top: 1074px;
+      left: 154px;
+      border: 0px solid black;
+    }
+    .aboutimage {
+      width: 515px;
+  }
+  }
+
+
+  @media (max-width:575px) and (min-width:350px) {
+    .circle{
+      width: 250px;
+      height: 250px;
+      top: 1118px;
+      left: 9px;
+    }
+    .circle2{
+      width: 250px;
+      height: 250px;
+      top: 1113px;
+      left: 226px;
+    }
+    .circle3{
+      width: 250px;
+      height: 250px;
+      top: 1125px;
+      left: 108px;
+      border: 0px solid black;
+    }
+    .aboutimage {
+      width: 462px;
+  }
+  }
+
+  @media (max-width:2720px) and (min-width:768px) {
+    .footercategorycol{
+      display: flex;
+      justify-content: space-around;
+    }
+    .browsecol{
+      margin: 0 !important;
+    }
+    }

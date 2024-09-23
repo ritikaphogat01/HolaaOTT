@@ -1,0 +1,67 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ background-color: black;
+
+}
+
+h2{
+    font-size: 12em;
+    color: white;
+    text-shadow: 0 10px 20px rgba(0, 0, 0, .5);
+    pointer-events: none;
+    user-select: none;
+    margin-top: 96px;
+}
+
+.glass{
+    position: absolute;
+    width: 800px;
+    height: 400px;
+    background: rgba(255, 255, 255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 50px;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-right:2px solid rgba(255, 255, 255, .2) ;
+    border-bottom:2px solid rgba(255, 255, 255, .2) ;
+    backdrop-filter: blur(7px);
+}
+.logo{
+    margin-bottom: 570px;
+}
+
+@media (max-width:849px) and (min-width:576px) {
+    .glass{
+        width: 620px;
+    }
+    h2{
+        font-size: 11em; 
+    }
+}
+
+@media (max-width:649px) and (min-width:570px) {
+    .glass{
+        width: 520px;
+    }
+    h2{
+        font-size: 9em; 
+    }
+}
+
+
+
+
+@media (max-width:575px) and (min-width:350px) {
+    .glass{
+        width: 420px;
+    }
+    h2{
+        font-size: 8em; 
+    }
+}

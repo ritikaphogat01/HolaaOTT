@@ -1,0 +1,227 @@
+body{
+    background-color: black;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  .nav_bar{
+      background: linear-gradient(180deg, rgba(44, 44, 44, 0.8) 0%, rgba(52, 51, 51, 0) 100%);
+      backdrop-filter: blur(10px);
+  }
+  .text{
+      color: white;   
+  }
+  .text:hover{
+    color: #FF581C;
+  }
+  
+  
+   .homemenu{
+    border-radius: 20px;
+      border: 2px solid rgba(72, 72, 72, 0.2);
+      background: #181818;
+   }
+  
+   .dropdown_item{
+    color: #999;
+   }
+   .dropdown_item:hover{
+    color: #999;
+  background-color:#181818 ;
+   }
+   /* From Uiverse.io by Yaya12085 */ 
+.button {
+    width: fit-content;
+    display: flex;
+    padding: 1.2em 1rem;
+    cursor: pointer;
+    gap: 0.4rem;
+    font-weight: bold;
+    border-radius: 30px;
+    text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+    background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+    background-size: 300%;
+    color: #fff;
+    border: none;
+    background-position: left center;
+    box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+    transition: background .3s ease;
+  }
+  
+  .button:hover {
+    background-size: 320%;
+    background-position: right center;
+  }
+  
+  .button:hover svg {
+    fill: #fff;
+  }
+  
+  .button svg {
+    width: 23px;
+    fill: #f09f33;
+    transition: .3s ease;
+  }
+  /* hero */
+  .breadcumb{
+    background-image: url('./image/breadcrumb-bg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+   
+    height: 410px;
+    position: relative;
+    top: -16px;
+  }
+  /* faq */
+  .question{
+    font-size: 42px;
+  }
+
+  .card{
+    background-color: black;
+  }
+  .how{
+    border: 1px solid black;
+    font-size: 32px;
+  }
+  .how:hover{
+    border: 1px solid black;
+  }
+  .howmovie{
+    font-size: 28px;
+  }
+.card_body{
+  color: grey;
+}
+  /* footer */
+
+
+
+.download{
+  font-size: 23px;
+}
+
+.appstore{
+  width: 130px;
+
+  padding: 1.2em 1rem;
+  cursor: pointer;
+  gap: 0.4rem;
+  font-weight: bold;
+  border-radius: 30px;
+  text-shadow: 2px 2px 3px rgb(136 0 136 / 50%);
+  background: linear-gradient(15deg, #880088, #aa2068, #cc3f47, #de6f3d, #f09f33, #de6f3d, #cc3f47, #aa2068, #880088) no-repeat;
+  background-size: 300%;
+  color: #fff;
+  border: none;
+  background-position: left center;
+  box-shadow: 0 30px 10px -20px rgba(0,0,0,.2);
+  transition: background .3s ease;
+  margin-top:25px; 
+}
+
+/* playstore */
+/* From Uiverse.io by zanina-yassine */ 
+.Playstore {
+  min-width: 120px;
+
+  position: relative;
+  cursor: pointer;
+
+  padding: 12px 17px;
+  border: 0;
+  border-radius: 7px;
+
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  background: radial-gradient(
+    ellipse at bottom,
+    rgba(71, 81, 92, 1) 0%,
+    rgba(11, 21, 30, 1) 45%
+  );
+
+  color: rgb(255, 255, 255, 0.66);
+
+  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.Playstore::before {
+  content: "";
+  width: 70%;
+  height: 1px;
+
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  opacity: 0.2;
+
+  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+}
+
+.Playstore:hover {
+  color: rgb(255, 255, 255, 1);
+  transform: scale(1.1) translateY(-3px);
+}
+
+.Playstore:hover::before {
+  opacity: 1;
+}
+
+
+.Playstore{
+  width: 45px;
+  height: 62px;
+}
+.connected, .Comedy, .Action, .Crime ,.Romance, .About, .Pricing, .Privacy, .Faq, .Account{
+  color: grey;
+}
+.Comedy:hover, .Action:hover, .Crime:hover ,.Romance:hover, .About:hover, .Pricing:hover, .Privacy:hover, .Faq:hover, .Account:hover{
+  color: white;
+}
+
+
+
+
+@media (max-width:767px) and (min-width:576px) {
+  .footercol{
+    display: flex;
+    justify-content: center;
+  }
+.holaafooter{
+  margin-left: 70px;
+}
+
+
+
+}
+
+@media (max-width:575px) and (min-width:350px) {
+  .footercol{
+    display: flex;
+    justify-content: center;
+  }
+  .browsecol{
+    margin-right: 0;
+  }
+  .helpcol{
+    margin-left: 200px;
+  }
+}
+
+@media (max-width:2720px) and (min-width:768px) {
+  .footercategorycol{
+    display: flex;
+    justify-content: space-around;
+  }
+  .browsecol{
+    margin: 0 !important;
+  }
+  }
