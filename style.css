@@ -748,33 +748,33 @@ transition: .5s ease;
 
 @media (max-width:575px) and (min-width:350px){
   .text-overlay{
-    left: 65px;
+    left: 4px;
   }
   .carousel_item{
     width: 73%;
      top: 30px;
-      left: 80px;
+     left: 34px;
       height: 500px;
     }
     .carousel_innerimg{
       height: 479px;
     }
     .ark{
-      font-size: 69px;
+      font-size: 59px;
     }
 .live{
   font-size: 20px;
   line-height: 1.6;
 }
 #TredingArea{
-  margin-top: 450px !important;
+  margin-top: 645px !important;
 }
 .slidebtn {
-  margin-left: 140px;
+  margin-left: 40px;
 }
 
 #PopularShow{
-  margin-top: 55px;
+  margin-top: 155px;
 }
 
 .feathurCard{
@@ -783,7 +783,13 @@ transition: .5s ease;
 .livecontainer{
   height: 1402px;
 }
-
+.Tv {
+ 
+  text-align: center;
+}
+.reviews{
+  margin-bottom: 5px;
+}
 }
 
 @media (max-width:2720px) and (min-width:768px) {
